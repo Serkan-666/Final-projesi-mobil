@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_x1"
+        android:name="com.serkanbakirci.matkolik.X1Fragment"
+        android:label="@string/menu_x1"
+        tools:layout="@layout/fragment_x1" />
+    <fragment
+        android:id="@+id/nav_x2"
+        android:name="com.serkanbakirci.matkolik.X2Fragment"
+        android:label="@string/menu_x2"
+        tools:layout="@layout/fragment_x2" />
+    <fragment
+        android:id="@+id/nav_x3"
+        android:name="com.serkanbakirci.matkolik.X3Fragment"
+        android:label="@string/menu_x3"
+        tools:layout="@layout/fragment_x3" />
+    <fragment
+        android:id="@+id/nav_x4"
+        android:name="com.serkanbakirci.matkolik.X4Fragment"
+        android:label="@string/menu_x4"
+        tools:layout="@layout/fragment_x4" />
+    <fragment
+        android:id="@+id/nav_x5"
+        android:name="com.serkanbakirci.matkolik.X5Fragment"
+        android:label="@string/menu_x5"
+        tools:layout="@layout/fragment_x5" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.serkanbakirci.matkolik.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_x"
+        android:name="com.serkanbakirci.matkolik.XFragment"
+        android:label="@string/menu_x"
+        tools:layout="@layout/fragment_x" />
+    <fragment
+        android:id="@+id/nav_x13"
+        android:name="com.serkanbakirci.matkolik.X13Fragment"
+        android:label="@string/menu_x13"
+        tools:layout="@layout/fragment_x13" />
+    <fragment
+        android:id="@+id/nav_x12"
+        android:name="com.serkanbakirci.matkolik.X12Fragment"
+        android:label="@string/menu_x12"
+        tools:layout="@layout/fragment_x12" />
+    <fragment
+        android:id="@+id/nav_x11"
+        android:name="com.serkanbakirci.matkolik.X11Fragment"
+        android:label="@string/menu_x11"
+        tools:layout="@layout/fragment_x11" />
+    <fragment
+        android:id="@+id/nav_x10"
+        android:name="com.serkanbakirci.matkolik.X10Fragment"
+        android:label="@string/menu_x10"
+        tools:layout="@layout/fragment_x10" />
+    <fragment
+        android:id="@+id/nav_x6"
+        android:name="com.serkanbakirci.matkolik.X6Fragment"
+        android:label="@string/menu_x6"
+        tools:layout="@layout/fragment_x6" />
+    <fragment
+        android:id="@+id/nav_x7"
+        android:name="com.serkanbakirci.matkolik.X7Fragment"
+        android:label="@string/menu_x7"
+        tools:layout="@layout/fragment_x7" />
+    <fragment
+        android:id="@+id/nav_x8"
+        android:name="com.serkanbakirci.matkolik.X8Fragment"
+        android:label="@string/menu_x8"
+        tools:layout="@layout/fragment_x8" />
+    <fragment
+        android:id="@+id/nav_x9"
+        android:name="com.serkanbakirci.matkolik.X9Fragment"
+        android:label="@string/menu_x9"
+        tools:layout="@layout/fragment_x9" />
+
+</navigation>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".X10Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="19dp"
+            android:ems="10"
+            android:hint="@string/y_kseklik_giriniz"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/number2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:ems="10"
+            android:hint="@string/kenar_giriniz"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/number3"
+            app:layout_constraintEnd_toEndOf="@+id/number1"
+            app:layout_constraintStart_toStartOf="@+id/number1"
+            app:layout_constraintTop_toBottomOf="@+id/number1"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/number3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:ems="10"
+            android:hint="@string/kenar_giriniz"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="@+id/number2"
+            app:layout_constraintStart_toStartOf="@+id/number2"
+            app:layout_constraintTop_toBottomOf="@+id/number2"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="@string/hesapla"
+            app:layout_constraintBottom_toTopOf="@+id/hacim"
+            app:layout_constraintEnd_toEndOf="@+id/hacim"
+            app:layout_constraintStart_toStartOf="@+id/hacim"
+            app:layout_constraintTop_toBottomOf="@+id/number3" />
+
+        <TextView
+            android:id="@+id/hacim"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:hint="@string/hacim"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/alan"
+            app:layout_constraintEnd_toEndOf="@+id/alan"
+            app:layout_constraintStart_toStartOf="@+id/alan"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/alan"
+            android:layout_width="106dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="194dp"
+            android:gravity="center"
+            android:hint="@string/alans"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hacim" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

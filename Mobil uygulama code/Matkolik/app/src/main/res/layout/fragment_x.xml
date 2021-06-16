@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".XFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/number1"
+            android:layout_width="186dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginBottom="59dp"
+            android:ems="10"
+            android:hint="@string/yar_ap_giriniz"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="109dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/hesapla"
+            app:layout_constraintBottom_toTopOf="@+id/cevre"
+            app:layout_constraintEnd_toEndOf="@+id/cevre"
+            app:layout_constraintStart_toStartOf="@+id/cevre"
+            app:layout_constraintTop_toBottomOf="@+id/number1" />
+
+        <TextView
+            android:id="@+id/alan"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="223dp"
+            android:gravity="center|top"
+            android:hint="@string/alan"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cevre" />
+
+        <TextView
+            android:id="@+id/cevre"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="45dp"
+            android:gravity="center|top"
+            android:hint="@string/evre"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/alan"
+            app:layout_constraintEnd_toEndOf="@+id/alan"
+            app:layout_constraintStart_toStartOf="@+id/alan"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

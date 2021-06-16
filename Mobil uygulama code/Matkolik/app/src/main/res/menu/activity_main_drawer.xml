@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_sharp_menu_book_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_x"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x" />
+        <item
+            android:id="@+id/nav_x1"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x1" />
+        <item
+            android:id="@+id/nav_x2"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x2" />
+        <item
+            android:id="@+id/nav_x3"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x3" />
+        <item
+            android:id="@+id/nav_x4"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x4" />
+        <item
+            android:id="@+id/nav_x5"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x5" />
+        <item
+            android:id="@+id/nav_x6"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x6" />
+        <item
+            android:id="@+id/nav_x7"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x7" />
+        <item
+            android:id="@+id/nav_x8"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x8" />
+        <item
+            android:id="@+id/nav_x9"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x9" />
+        <item
+            android:id="@+id/nav_x10"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x10" />
+        <item
+            android:id="@+id/nav_x11"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x11" />
+        <item
+            android:id="@+id/nav_x12"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x12" />
+        <item
+            android:id="@+id/nav_x13"
+            android:icon="@drawable/x"
+            android:title="@string/menu_x13" />
+
+
+
+    </group>
+</menu>

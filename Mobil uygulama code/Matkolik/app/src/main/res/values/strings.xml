@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Matkolik</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bandırma on yedi eylül üniversitesi</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Çıkış</string>
+
+    <string name="menu_home">Matkolik</string>
+    <string name="menu_x">Daire alan ve çevre hesaplama</string>
+    <string name="menu_x1">Dikdörtgen alan çevre hesaplama</string>
+    <string name="menu_x2">Üçgen alan hesaplama</string>
+    <string name="menu_x3">Küp hacim hesaplama</string>
+    <string name="menu_x4">Küre hacim hesaplama</string>
+    <string name="menu_x5">Kombinasyon hesaplama</string>
+    <string name="menu_x6">Hipotenüs değeri bulma</string>
+    <string name="menu_x7">Asal sayı kontrol</string>
+    <string name="menu_x8">Faktöriyel hesaplama</string>
+    <string name="menu_x9">Kare prizma hacim ve alan hesaplama</string>
+    <string name="menu_x10">Dikdörtgen prizma hacim ve alan hesaplama</string>
+    <string name="menu_x11">Kare piramit hacim ve alan hesaplama</string>
+    <string name="menu_x12">Silindir hacim ve alan hesaplama</string>
+    <string name="menu_x13">Üçgen prizma hacim ve alan hesaplama</string>
+    <string name="todo">TODO</string>
+    <string name="yar_ap_giriniz">Yarı çapı giriniz</string>
+    <string name="hesapla">hesapla</string>
+    <string name="alan">Alan</string>
+    <string name="evre">Çevre</string>
+    <string name="hesaplama_uygulamam_za_ho_geldiniz">Hesaplama Uygulamamıza hoşgeldiniz</string>
+    <string name="hesaplamak_istedi_iniz_b_l_m_sol_yukardaki_men_den_se_iniz">Hesaplamak istediğiniz bölümü sol yukardaki menüden seçiniz</string>
+    <string name="kenar_giriniz">Kenar giriniz</string>
+    <string name="kenar_giriniz">Kenar giriniz</string>
+    <string name="hesapla">hesapla</string>
+    <string name="alan">Alan</string>
+    <string name="evre">Çevre</string>
+    <string name="y_kseklik_giriniz">Yükseklik giriniz</string>
+    <string name="kenar_giriniz">Kenar giriniz</string>
+    <string name="kenar_giriniz">Kenar giriniz</string>
+    <string name="hesapla">hesapla</string>
+    <string name="hacim">hacim</string>
+    <string name="alans">alan</string>
+    <string name="y_kseklik_giriniz">Yükseklik giriniz</string>
+    <string name="kenar_giriniz">Kenar giriniz</string>
+    <string name="hesapla">hesapla</string>
+    <string name="hacim">hacim</string>
+    <string name="alans">alan</string>
+
+</resources>
